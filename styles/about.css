@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #0E3858;
+    height: 100px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header > .header-content {
+    width: 63%;
+}
+
+.header > .header-content > .header-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #edc112;
+}
+
+.gold-bar {
+    background-color: #edc112;
+    height: 5px;
+}
+
+.header > .header-content > .title-links {
+    display: flex;
+    justify-content: right;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header > .header-content > .title-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.header > .header-content > .title-links > .link {
+    width: 70px;
+}
+.about-us-wrapper {
+    background-color: #0E3858;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.about-us-wrapper > .about-us-info-wrapper {
+    width: 63%;
+    padding-top: 50px;
+    font-size: 2em;
+    line-height: 2em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.about-us-wrapper > .about-us-info-wrapper > .about-us-paragraph {
+    padding-bottom: 100px;
+}
+
+.about-us-wrapper > .about-us-info-wrapper > .about-us-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-wrapper > .about-us-info-wrapper > .about-us-images > .about-us-image1 img{
+    width: 350px;
+}
+
+.about-us-wrapper > .about-us-info-wrapper > .about-us-images > .about-us-image2 img{
+    width: 350px;
+}

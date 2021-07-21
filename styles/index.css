@@ -67,15 +67,16 @@ body {
 }
 
 .homepage-wrapper > .homepage-content > .homepage-info-wrapper {
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 2em;
     font-family: 'Oswald', sans-serif;
     color: white;
 }
 .homepage-wrapper > .homepage-content > .homepage-info-snippet {
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 2em;
     font-family: 'Oswald', sans-serif;
     color: white;
     padding-top: 100px;
+    padding-bottom: 100px;
 }

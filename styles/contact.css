@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header > .header-content {
+    width: 60%;
+}
+
+.header > .header-content > .header-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2em;
+    font-weight: 500;
+    color: white;
+}
+
+.gold-bar {
+    background-color: #edc112;
+    height: 5px;
+}
+
+.header > .header-content > .title-links {
+    display: flex;
+    justify-content: right;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header > .header-content > .title-links a {
+    text-decoration: none;
+    color: #edc112;
+}
+
+.header > .header-content > .title-links > .link {
+    width: 70px;
+    padding-left: 5px;
+}
+
